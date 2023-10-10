@@ -1,0 +1,63 @@
+    div {
+       max-width: 1600px;
+       margin: 0 auto;
+    }
+    nav a { 
+        text-align: center;
+        color: fefaeo;
+        text-decoration: none;
+    }
+    #hero-msg ht, #hero-msg h4 {text-align: center;}
+    .button-box {text-align: center;}
+    main section {text-align: center;}
+    #background {
+        height: 725px;
+    }
+    body {
+        background-color: fefaeo;
+    }
+    header {
+        background-color: 606c38;
+    }
+    nav a:hover {
+        background-color: black;
+        color: 283618
+    }
+    .home-title {
+        color: bcbc25;
+    }
+    h4 {
+        color:283618;
+    }
+    .book, .join {
+        color: fefaeo;
+    }
+    .book:hover, .join:hover {
+        background-color: black;
+        color:283618;
+    }
+    .msg h2 {
+        color: dda15e
+    }    
+    .msg p {
+        color: 606c38
+    }    }
+    footer {
+        color: 606c38
+    }
+    footer a {
+        color: 606c38
+    }
+    footer a:hover {
+        color: black;
+    }
+    .icon {
+        width: 80px;
+    }
+    footer p {
+        font-size: 1.2em;
+    }
+    footer p a:hover {
+        text-decoration: underline;
+    }
+    
