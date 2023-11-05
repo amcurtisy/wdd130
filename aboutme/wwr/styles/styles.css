@@ -93,7 +93,7 @@ main section {
     background-color: #dda15e;
 }
 #background {
-    height: 725px;
+    height: 25px;
     grid-column: 5/7;
     grid-row: 2/3;
 }
@@ -101,7 +101,7 @@ background {
     background-color: #bc6c25;
 }
 .mountains {
-    width: 100%;
+    width: 30%;
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
@@ -147,7 +147,7 @@ rivers-card, .camping-card, .rapids-card {
     transform: scale(1.1);
 }
 .card-img, .mountains {
-    width: 100%;
+    width: 30%;
 }
 footer {
     background-color: #dda15e;
