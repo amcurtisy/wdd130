@@ -43,9 +43,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
+h1 {  
+  text-align: center;  
+  font-size: 36px;
+}
 h2 {
   text-align: center;
-  font-size: 48px;
+  font-size: 18px;
 }
 
 hr {
@@ -64,33 +68,44 @@ header > h1, header > h2 {
 }
 .container{
   display: grid;
-  grid-template-columns: 200px auto;
-  grid-auto-rows:minmax(200px, auto);
+  /*grid-template-columns: 200px, 200px, 200px;
+  grid-auto-rows:minmax(200px, auto);*/
   grid-gap:1em;
-  grid-template-areas:
-  "header nav"
-  "main main"
-  "footer footer";
+  grid-template-areas: 
+  'header nav nav '
+  'left main right'
+  'main2 main2 main2'
+  'footer footer footer';
 }
-header{
-    grid-area:header;
-}
-nav{
-grid-area:nav;
-}
-main{
-grid-area:main;
-}
-footer {
-grid-area:footer;
-}
+.item1 { grid-area: header; }
+.item2 { grid-area: nav; }
+.item3 { grid-area: left; }
+.item4 { grid-area: main; }
+.item5 { grid-area: right; }
+.item6 { grid-area: main2; }
+.item7 { grid-area: footer; }
 
 #logo {
-    position: relative;
-    float:left;
-    top:0px;
-    left:0px;
-    width: 100%;
+  position: relative;
+  float:left;
+  top:0px;
+  left:0px;
+  width: 200px;
+}
+
+#rosy{
+  position: relative;
+  float:left;
+  top:0px;
+  left:0px;
+  width: 200px;
+}
+
+#timeManage{
+  position: relative;
+  float:right;
+  top:0px;
+  width: 200px;
 }
 
 p {
